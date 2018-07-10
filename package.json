@@ -1,0 +1,30 @@
+{
+  "name": "languazom",
+  "version": "0.1.0",
+  "description": "traductor de idioma",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test" : "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perajim/Languazom.git"
+  },
+  "keywords": [
+    "javascript",
+    "perajim"
+  ],
+  "author": "perajim <perajim@gmail.com> (https://facebook.com/perajim)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/perajim/Languazom/issues"
+  },
+  "homepage": "https://github.com/perajim/Languazom#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
